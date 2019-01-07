@@ -1,9 +1,9 @@
 {
-  "name": "vs/monolog",
+  "name": "vs/test",
   "type": "library",
   "license": "MIT",
   "homepage": "https://github.com/virtualsites/vsmonolog",
   "require": {
-    "monolog/monolog": "1.0.*"
-  }
+  },
+  "minimum-stability": "dev"
 }
