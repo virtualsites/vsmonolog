@@ -3,7 +3,13 @@
   "type": "library",
   "license": "MIT",
   "homepage": "https://github.com/virtualsites/vsmonolog",
+  "minimum-stability": "dev",
   "require": {
+    "php": ">=5.3.0"
   },
-  "minimum-stability": "dev"
+  "autoload": {
+    "psr-0": {
+      "Test": "src/"
+    }
+  }
 }
